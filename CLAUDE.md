@@ -32,3 +32,9 @@ yarn fix             # Auto-fix formatting and linting issues
 - Internal packages use path aliases (see `vitest.config.mts`)
 - Build system uses esbuild for packages, Vite for the app
 - TypeScript throughout with strict configuration
+
+<!-- noovicrew-shared-harness:start -->
+## Harness compartilhado
+
+Leia `.agent-harness/WORKFLOW.md` a partir da raiz do Git para os papéis compartilhados, evidências de teste e coordenação de uma tarefa por vez. As instruções específicas deste repositório e de seus diretórios prevalecem sobre essa base genérica. A configuração em .agent-harness/config.json não inicia loops, agentes, merges ou deploys.
+<!-- noovicrew-shared-harness:end -->
